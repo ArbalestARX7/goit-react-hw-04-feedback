@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 400px;
+  margin: auto;
+
+  font-size: 30px;
+  text-align: start;
+}
+
+.item {
+  text-align: center;
+  min-width: 175px;
+  padding: 10px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  background-color: #00f2ff;
+  border: 1px solid #00f2ff;
+  border-radius: 10px;
+  transition: background-color linear 250ms;
+}
